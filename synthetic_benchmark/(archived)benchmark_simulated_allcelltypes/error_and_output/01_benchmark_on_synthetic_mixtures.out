@@ -1,0 +1,331 @@
+Total number of imported short reads: 19853641
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 1).
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 2).
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 3).
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 4).
+Chain 1: 
+Chain 1: Gradient evaluation took 0.004012 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 40.12 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 2: 
+Chain 2: Gradient evaluation took 0.004034 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 40.34 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 3: 
+Chain 3: Gradient evaluation took 0.004039 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 40.39 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 4: 
+Chain 4: Gradient evaluation took 0.004051 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 40.51 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
+Reading bam alignment Control_14.bam 
+ considering ROIs using bam index
+Total number of imported short reads: 36878899
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment Control_3.bam 
+ considering ROIs using bam index
+Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Total number of imported short reads: 49083383
+Creating GRange Object...
+Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment Control_14.bam 
+ considering ROIs using bam index
+Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Total number of imported short reads: 36878899
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 1).
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 2).
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 3).
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 4).
+Chain 1: 
+Chain 1: Gradient evaluation took 0.004737 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 47.37 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 3: 
+Chain 3: Gradient evaluation took 0.004946 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 49.46 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain Chain 24: : 
+
+Chain Chain 24: : Gradient evaluation took 0.007901 secondsGradient evaluation took 0.007692 seconds
+
+Chain Chain 24: : 1000 transitions using 10 leapfrog steps per transition would take 79.01 seconds.1000 transitions using 10 leapfrog steps per transition would take 76.92 seconds.
+
+Chain Chain 24: : Adjust your expectations accordingly!Adjust your expectations accordingly!
+
+Chain Chain 24: : 
+
+Chain Chain 24: : 
+
+Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Total number of imported short reads: 49083383
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 1).
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 2).
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 3).
+
+SAMPLING FOR MODEL 'decemedip1' NOW (CHAIN 4).
+Chain 1: 
+Chain 1: Gradient evaluation took 0.004455 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 44.55 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 2: 
+Chain 2: Gradient evaluation took 0.004342 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 43.42 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 3: 
+Chain 3: Gradient evaluation took 0.004807 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 48.07 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 4: 
+Chain 4: Gradient evaluation took 0.004392 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 43.92 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain Chain 11: : Iteration:  400 / 2000 [ 20%]  (Warmup)Iteration: 1000 / 2000 [ 50%]  (Warmup)
+
+Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 316.987 seconds (Warm-up)
+Chain 4:                185.857 seconds (Sampling)
+Chain 4:                502.844 seconds (Total)
+Chain 4: 
+Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 457.01 seconds (Warm-up)
+Chain 4:                316.198 seconds (Sampling)
+Chain 4:                773.208 seconds (Total)
+Chain 4: 
+Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 486.086 seconds (Warm-up)
+Chain 1:                313.654 seconds (Sampling)
+Chain 1:                799.74 seconds (Total)
+Chain 1: 
+Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 469.589 seconds (Warm-up)
+Chain 3:                340.143 seconds (Sampling)
+Chain 3:                809.732 seconds (Total)
+Chain 3: 
+Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 466.24 seconds (Warm-up)
+Chain 2:                347.804 seconds (Sampling)
+Chain 2:                814.044 seconds (Total)
+Chain 2: 
+Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 340.678 seconds (Warm-up)
+Chain 3:                278.628 seconds (Sampling)
+Chain 3:                619.306 seconds (Total)
+Chain 3: 
+Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 327.576 seconds (Warm-up)
+Chain 1:                302.827 seconds (Sampling)
+Chain 1:                630.403 seconds (Total)
+Chain 1: 
+Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 365.002 seconds (Warm-up)
+Chain 2:                351.233 seconds (Sampling)
+Chain 2:                716.235 seconds (Total)
+Chain 2: 
+Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 461.197 seconds (Warm-up)
+Chain 4:                315.799 seconds (Sampling)
+Chain 4:                776.996 seconds (Total)
+Chain 4: 
+Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 477.537 seconds (Warm-up)
+Chain 2:                311.432 seconds (Sampling)
+Chain 2:                788.969 seconds (Total)
+Chain 2: 
+Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 495.09 seconds (Warm-up)
+Chain 3:                347.898 seconds (Sampling)
+Chain 3:                842.988 seconds (Total)
+Chain 3: 
+Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 460.148 seconds (Warm-up)
+Chain 1:                620.31 seconds (Sampling)
+Chain 1:                1080.46 seconds (Total)
+Chain 1: 

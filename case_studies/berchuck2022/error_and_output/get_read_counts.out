@@ -1,0 +1,768 @@
+Reading bam alignment a5_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 10765
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 212.0635 nt
+SD of the insertion size: 49.16053 nt
+Max insertion size: 450 nt
+Min insertion size: 51 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s2_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 14026
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 214.7448 nt
+SD of the insertion size: 56.60549 nt
+Max insertion size: 492 nt
+Min insertion size: 74 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s4_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 13317
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 204.9948 nt
+SD of the insertion size: 51.02908 nt
+Max insertion size: 486 nt
+Min insertion size: 61 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s6_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 15012
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 198.2857 nt
+SD of the insertion size: 50.29329 nt
+Max insertion size: 498 nt
+Min insertion size: 53 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s7_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 11777
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 212.0379 nt
+SD of the insertion size: 57.01809 nt
+Max insertion size: 497 nt
+Min insertion size: 54 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s10_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 16458
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 212.0736 nt
+SD of the insertion size: 55.21232 nt
+Max insertion size: 472 nt
+Min insertion size: 77 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s12_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 15939
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 210.6621 nt
+SD of the insertion size: 53.26426 nt
+Max insertion size: 476 nt
+Min insertion size: 67 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s15_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 5524
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 206.0087 nt
+SD of the insertion size: 51.18314 nt
+Max insertion size: 425 nt
+Min insertion size: 48 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment S57_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 491
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 181.6008 nt
+SD of the insertion size: 54.42279 nt
+Max insertion size: 405 nt
+Min insertion size: 83 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment S58_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 5572
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 199.8322 nt
+SD of the insertion size: 51.57968 nt
+Max insertion size: 416 nt
+Min insertion size: 57 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s16_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 18778
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 206.0698 nt
+SD of the insertion size: 51.86958 nt
+Max insertion size: 489 nt
+Min insertion size: 69 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J10_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 28133
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 218.526 nt
+SD of the insertion size: 54.4041 nt
+Max insertion size: 461 nt
+Min insertion size: 67 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J7_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 19002
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 155.7569 nt
+SD of the insertion size: 31.95239 nt
+Max insertion size: 496 nt
+Min insertion size: 58 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J8_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 16478
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 214.54 nt
+SD of the insertion size: 55.4566 nt
+Max insertion size: 463 nt
+Min insertion size: 27 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J9_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 14615
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 213.5589 nt
+SD of the insertion size: 53.26723 nt
+Max insertion size: 435 nt
+Min insertion size: 78 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment a4_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 15101
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 196.8192 nt
+SD of the insertion size: 45.94331 nt
+Max insertion size: 475 nt
+Min insertion size: 48 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s1_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 8594
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 204.6814 nt
+SD of the insertion size: 51.22389 nt
+Max insertion size: 420 nt
+Min insertion size: 77 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s3_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 18014
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 207.2727 nt
+SD of the insertion size: 52.33101 nt
+Max insertion size: 498 nt
+Min insertion size: 62 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s5_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 15581
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 211.7448 nt
+SD of the insertion size: 55.10656 nt
+Max insertion size: 483 nt
+Min insertion size: 65 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s8_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 17381
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 195.3101 nt
+SD of the insertion size: 51.83854 nt
+Max insertion size: 487 nt
+Min insertion size: 65 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s9_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 9151
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 195.0801 nt
+SD of the insertion size: 46.95484 nt
+Max insertion size: 448 nt
+Min insertion size: 59 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s11_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 18116
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 209.3276 nt
+SD of the insertion size: 51.58124 nt
+Max insertion size: 465 nt
+Min insertion size: 66 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s13_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 20358
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 217.8101 nt
+SD of the insertion size: 56.55162 nt
+Max insertion size: 452 nt
+Min insertion size: 68 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s14_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 17399
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 209.0023 nt
+SD of the insertion size: 54.23687 nt
+Max insertion size: 439 nt
+Min insertion size: 66 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J2_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 20745
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 222.2988 nt
+SD of the insertion size: 59.09369 nt
+Max insertion size: 477 nt
+Min insertion size: 73 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J3_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 13773
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 210.7415 nt
+SD of the insertion size: 52.73871 nt
+Max insertion size: 486 nt
+Min insertion size: 68 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J4_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 24485
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 205.9015 nt
+SD of the insertion size: 48.24011 nt
+Max insertion size: 420 nt
+Min insertion size: 58 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J5_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 13720
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 186.2384 nt
+SD of the insertion size: 41.90884 nt
+Max insertion size: 419 nt
+Min insertion size: 43 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J6_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 14298
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 213.4057 nt
+SD of the insertion size: 51.11942 nt
+Max insertion size: 458 nt
+Min insertion size: 69 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment a1_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 22168
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 227.5191 nt
+SD of the insertion size: 54.41373 nt
+Max insertion size: 494 nt
+Min insertion size: 43 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment a2_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 12720
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 233.2724 nt
+SD of the insertion size: 53.16019 nt
+Max insertion size: 450 nt
+Min insertion size: 60 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment a3_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 14114
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 220.6749 nt
+SD of the insertion size: 47.05762 nt
+Max insertion size: 469 nt
+Min insertion size: 58 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment a5_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 7509
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 212.6966 nt
+SD of the insertion size: 54.50635 nt
+Max insertion size: 497 nt
+Min insertion size: 68 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s2_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 8366
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 212.0038 nt
+SD of the insertion size: 56.59704 nt
+Max insertion size: 455 nt
+Min insertion size: 27 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s4_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 8471
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 200.6734 nt
+SD of the insertion size: 50.14779 nt
+Max insertion size: 498 nt
+Min insertion size: 52 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s6_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 8709
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 199.2896 nt
+SD of the insertion size: 50.79448 nt
+Max insertion size: 497 nt
+Min insertion size: 34 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s7_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 5734
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 208.8289 nt
+SD of the insertion size: 57.67263 nt
+Max insertion size: 495 nt
+Min insertion size: 45 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s10_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 7308
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 211.9059 nt
+SD of the insertion size: 55.80511 nt
+Max insertion size: 498 nt
+Min insertion size: 52 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s12_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 6207
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 210.8452 nt
+SD of the insertion size: 57.15314 nt
+Max insertion size: 500 nt
+Min insertion size: 61 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s15_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 3821
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 200.3044 nt
+SD of the insertion size: 51.2449 nt
+Max insertion size: 490 nt
+Min insertion size: 43 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment S57_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 201
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 202.1592 nt
+SD of the insertion size: 58.58007 nt
+Max insertion size: 416 nt
+Min insertion size: 84 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment S58_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 4688
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 206.702 nt
+SD of the insertion size: 54.39662 nt
+Max insertion size: 499 nt
+Min insertion size: 78 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s16_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 9561
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 204.3644 nt
+SD of the insertion size: 51.50983 nt
+Max insertion size: 472 nt
+Min insertion size: 51 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J10_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 11230
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 217.4326 nt
+SD of the insertion size: 58.64858 nt
+Max insertion size: 495 nt
+Min insertion size: 30 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J7_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 10179
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 159.075 nt
+SD of the insertion size: 39.9197 nt
+Max insertion size: 500 nt
+Min insertion size: 54 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J8_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 7974
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 216.4887 nt
+SD of the insertion size: 58.09727 nt
+Max insertion size: 498 nt
+Min insertion size: 42 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J9_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 7867
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 211.64 nt
+SD of the insertion size: 54.27576 nt
+Max insertion size: 494 nt
+Min insertion size: 54 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment a4_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 9986
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 201.028 nt
+SD of the insertion size: 52.59112 nt
+Max insertion size: 498 nt
+Min insertion size: 48 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s1_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 5406
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 202.5781 nt
+SD of the insertion size: 52.59619 nt
+Max insertion size: 495 nt
+Min insertion size: 31 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s3_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 8809
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 203.7912 nt
+SD of the insertion size: 53.5767 nt
+Max insertion size: 496 nt
+Min insertion size: 52 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s5_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 9460
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 210.6458 nt
+SD of the insertion size: 57.5965 nt
+Max insertion size: 489 nt
+Min insertion size: 23 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s8_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 8078
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 193.655 nt
+SD of the insertion size: 52.41627 nt
+Max insertion size: 498 nt
+Min insertion size: 39 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s9_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 4113
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 195.4619 nt
+SD of the insertion size: 47.11527 nt
+Max insertion size: 498 nt
+Min insertion size: 59 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s11_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 7570
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 206.1165 nt
+SD of the insertion size: 51.43286 nt
+Max insertion size: 500 nt
+Min insertion size: 60 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s13_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 12725
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 215.5818 nt
+SD of the insertion size: 57.83521 nt
+Max insertion size: 490 nt
+Min insertion size: 51 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment s14_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 9640
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 208.7772 nt
+SD of the insertion size: 55.91431 nt
+Max insertion size: 498 nt
+Min insertion size: 52 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J2_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 9591
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 220.6683 nt
+SD of the insertion size: 60.62014 nt
+Max insertion size: 500 nt
+Min insertion size: 63 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J3_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 8943
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 212.631 nt
+SD of the insertion size: 56.89039 nt
+Max insertion size: 500 nt
+Min insertion size: 33 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J4_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 8108
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 206.0836 nt
+SD of the insertion size: 51.16135 nt
+Max insertion size: 498 nt
+Min insertion size: 59 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J5_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 6427
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 182.1788 nt
+SD of the insertion size: 40.11096 nt
+Max insertion size: 484 nt
+Min insertion size: 61 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment J6_HY2FCBBXX_L005_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 8274
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 211.3185 nt
+SD of the insertion size: 53.54683 nt
+Max insertion size: 500 nt
+Min insertion size: 46 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment a1_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 9109
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 226.7232 nt
+SD of the insertion size: 61.92368 nt
+Max insertion size: 497 nt
+Min insertion size: 51 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment a2_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 5540
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 237.0116 nt
+SD of the insertion size: 54.35832 nt
+Max insertion size: 497 nt
+Min insertion size: 60 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...
+Reading bam alignment a3_sorted.bam 
+ considering ROIs using bam index
+Total number of imported first mate reads in properly mapped pairs: 5736
+scanBamFlag: isPaired = T, isProperPair=TRUE , hasUnmappedMate=FALSE, isUnmappedQuery = F, isFirstMateRead = T, isSecondMateRead = F
+Mean insertion size: 217.9641 nt
+SD of the insertion size: 51.02194 nt
+Max insertion size: 487 nt
+Min insertion size: 49 nt
+Creating GRange Object...
+Do not correct for potential PCR artefacts (keep all reads).
+Loading chromosome lengths for BSgenome.Hsapiens.UCSC.hg19...
+Calculating short read coverage at regions of interest...

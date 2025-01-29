@@ -1,0 +1,150 @@
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+23143759 reads; of these:
+  23143759 (100.00%) were paired; of these:
+    9977975 (43.11%) aligned concordantly 0 times
+    9635102 (41.63%) aligned concordantly exactly 1 time
+    3530682 (15.26%) aligned concordantly >1 times
+    ----
+    9977975 pairs aligned concordantly 0 times; of these:
+      52204 (0.52%) aligned discordantly 1 time
+    ----
+    9925771 pairs aligned 0 times concordantly or discordantly; of these:
+      19851542 mates make up the pairs; of these:
+        19401004 (97.73%) aligned 0 times
+        249035 (1.25%) aligned exactly 1 time
+        201503 (1.02%) aligned >1 times
+58.09% overall alignment rate
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+30118719 reads; of these:
+  30118719 (100.00%) were paired; of these:
+    7707043 (25.59%) aligned concordantly 0 times
+    17929980 (59.53%) aligned concordantly exactly 1 time
+    4481696 (14.88%) aligned concordantly >1 times
+    ----
+    7707043 pairs aligned concordantly 0 times; of these:
+      104423 (1.35%) aligned discordantly 1 time
+    ----
+    7602620 pairs aligned 0 times concordantly or discordantly; of these:
+      15205240 mates make up the pairs; of these:
+        14624776 (96.18%) aligned 0 times
+        322781 (2.12%) aligned exactly 1 time
+        257683 (1.69%) aligned >1 times
+75.72% overall alignment rate
+39261196 reads; of these:
+  39261196 (100.00%) were paired; of these:
+    4218806 (10.75%) aligned concordantly 0 times
+    28595764 (72.83%) aligned concordantly exactly 1 time
+    6446626 (16.42%) aligned concordantly >1 times
+    ----
+    4218806 pairs aligned concordantly 0 times; of these:
+      189346 (4.49%) aligned discordantly 1 time
+    ----
+    4029460 pairs aligned 0 times concordantly or discordantly; of these:
+      8058920 mates make up the pairs; of these:
+        7329876 (90.95%) aligned 0 times
+        404840 (5.02%) aligned exactly 1 time
+        324204 (4.02%) aligned >1 times
+90.67% overall alignment rate

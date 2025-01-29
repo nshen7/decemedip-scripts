@@ -1,0 +1,32 @@
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+[bam_sort_core] merging from 20 files and 20 in-memory blocks...
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+[bam_sort_core] merging from 20 files and 20 in-memory blocks...
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+[bam_sort_core] merging from 20 files and 20 in-memory blocks...
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd
+slurmstepd: error: _get_joules_task: can't get info from slurmd

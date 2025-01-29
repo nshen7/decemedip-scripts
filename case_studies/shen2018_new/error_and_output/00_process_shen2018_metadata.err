@@ -1,0 +1,283 @@
+INFO:    squashfuse not found, will not be able to use gocryptfs
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+here() starts at /scratch/st-kdkortha-1/nshen7/cfMeDIP_deconv/cfMeDIP-deconv-experiments
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.3     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.3     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.0
+✔ purrr     1.0.1     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+The following object is masked from ‘package:purrr’:
+
+    transpose
+
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:data.table’:
+
+    first, second
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:data.table’:
+
+    shift
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomeInfoDb
+Loading required package: BSgenome
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: rtracklayer
+Loading required package: Rsamtools
+No methods found in package ‘IRanges’ for request: ‘values’ when loading ‘MEDIPS’
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Warning messages:
+1: In readLines(f, n) : line 1 appears to contain an embedded nul
+2: In readLines(f, n) :
+  incomplete final line found on '/scratch/st-kdkortha-1/nshen7/cfMeDIP_deconv/cfMeDIP-deconv-experiments/._cfMeDIP_deconv.Rproj'
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_6.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_9.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_4.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_5.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_18.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_25.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_21.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_14.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_2.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_11.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_15.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_20.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_27.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-AML/AML_24.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_11.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_14.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_6.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_16.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_4.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_3.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_7.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_15.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_5.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_13.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_12.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_10.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_21.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_20.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-Control/Control_24.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_11.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_19.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_2.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_15.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_23.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_7.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_25.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_16.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_21.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_3.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_24.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_9.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_4.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_22.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BRCA/BRCA_18.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BL/BL_5.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BL/BL_6.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BL/BL_16.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BL/BL_20.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BL/BL_11.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BL/BL_10.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BL/BL_8.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-BL/BL_15.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_7.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_18.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_21.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_6.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_2.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_11.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_19.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_15.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_4.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_3.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_12.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_22.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_17.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_23.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_5.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_16.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_14.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-CRC/CRC_1.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_13.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_20.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_7.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_4.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_10.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_12.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_8.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_23.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_11.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_15.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_17.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_25.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_18.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_21.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-LUC/LUC_1.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_16.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_1.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_10.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_12.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_2.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_17.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_21.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_11.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_18.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_22.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_3.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_24.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-PDAC/PDAC_7.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_2.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_14.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_20.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_11.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_17.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_12.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_7.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_5.bam.bai
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_16.bam.bai

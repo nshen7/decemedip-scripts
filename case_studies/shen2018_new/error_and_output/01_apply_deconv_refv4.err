@@ -1,0 +1,1591 @@
+INFO:    squashfuse not found, will not be able to use gocryptfs
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+[W::hts_idx_load3] INFO:    squashfuse not found, will not be able to use gocryptfs
+The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_7.bam.baiINFO:    gocryptfs not found, will not be able to use gocryptfs
+
+here() starts at /scratch/st-kdkortha-1/nshen7/cfMeDIP_deconv/cfMeDIP-deconv-experiments
+New names:
+• `` -> `...1`
+New names:
+• `` -> `...1`
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.3     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.3     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.0
+✔ purrr     1.0.1     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+The following object is masked from ‘package:purrr’:
+
+    transpose
+
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:data.table’:
+
+    first, second
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+here() starts at /scratch/st-kdkortha-1/nshen7/cfMeDIP_deconv/cfMeDIP-deconv-experiments
+New names:
+• `` -> `...1`
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:data.table’:
+
+    shift
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomeInfoDb
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.3     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.3     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.0
+✔ purrr     1.0.1     
+Loading required package: BSgenome
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: rtracklayer
+
+Attaching package: ‘data.table’
+
+New names:
+• `` -> `...1`
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+The following object is masked from ‘package:purrr’:
+
+    transpose
+
+Loading required package: stats4
+Loading required package: BiocGenerics
+New names:
+• `` -> `...1`
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:data.table’:
+
+    first, second
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+New names:
+• `` -> `...1`
+[W::hts_idx_load3] 
+Attaching package: ‘IRanges’
+
+The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_17.bam.baiThe following object is masked from ‘package:data.table’:
+
+    shift
+
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomeInfoDb
+Loading required package: BSgenome
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: rtracklayer
+New names:
+• `` -> `...1`
+Loading required package: Rsamtools
+New names:
+• `` -> `...1`
+No methods found in package ‘IRanges’ for request: ‘values’ when loading ‘MEDIPS’
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Warning messages:
+1: In readLines(f, n) : line 1 appears to contain an embedded nul
+2: In readLines(f, n) :
+  incomplete final line found on '/scratch/st-kdkortha-1/nshen7/cfMeDIP_deconv/cfMeDIP-deconv-experiments/._cfMeDIP_deconv.Rproj'
+Loading required package: Rsamtools
+No methods found in package ‘IRanges’ for request: ‘values’ when loading ‘MEDIPS’
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Warning messages:
+1: In readLines(f, n) : line 1 appears to contain an embedded nul
+2: In readLines(f, n) :
+  incomplete final line found on '/scratch/st-kdkortha-1/nshen7/cfMeDIP_deconv/cfMeDIP-deconv-experiments/._cfMeDIP_deconv.Rproj'
+ℹ Loading decemedip
+ℹ Loading decemedip
+Loading required package: StanHeaders
+
+rstan version 2.32.6 (Stan version 2.32.2)
+
+For execution on a local, multicore CPU with excess RAM we recommend calling
+options(mc.cores = parallel::detectCores()).
+To avoid recompilation of unchanged Stan programs, we recommend calling
+rstan_options(auto_write = TRUE)
+For within-chain threading using `reduce_sum()` or `map_rect()` Stan functions,
+change `threads_per_chain` option:
+rstan_options(threads_per_chain = 1)
+
+
+Attaching package: ‘rstan’
+
+The following object is masked from ‘package:tidyr’:
+
+    extract
+
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_5.bam.bai
+Loading required package: StanHeaders
+
+rstan version 2.32.6 (Stan version 2.32.2)
+
+For execution on a local, multicore CPU with excess RAM we recommend calling
+options(mc.cores = parallel::detectCores()).
+To avoid recompilation of unchanged Stan programs, we recommend calling
+rstan_options(auto_write = TRUE)
+For within-chain threading using `reduce_sum()` or `map_rect()` Stan functions,
+change `threads_per_chain` option:
+rstan_options(threads_per_chain = 1)
+
+
+Attaching package: ‘rstan’
+
+The following object is masked from ‘package:tidyr’:
+
+    extract
+
+New names:
+• `` -> `...1`
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_16.bam.bai
+New names:
+• `` -> `...1`
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_7.bam.bai
+New names:
+• `` -> `...1`
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_12.bam.bai
+MCMC converged with seed 2025
+New names:
+• `` -> `...1`
+Warning in decemedip(sample_bam_file = md_samples$bamdir[md_samples$sample ==  :
+  Unusual low coverage for cell type-specific reference sites!
+New names:
+• `` -> `...1`
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_5.bam.bai
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+New names:
+• `` -> `...1`
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_17.bam.bai
+MCMC converged with seed 2025
+New names:
+• `` -> `...1`
+New names:
+• `` -> `...1`
+[W::hts_idx_load3] The index file is older than the data file: /scratch/st-kdkortha-1/kdkortha/shen2018_raw/cfMeDIP_Transfer_Korthauer/cfMeDIP-RCC/RCC_16.bam.bai
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+New names:
+• `` -> `...1`
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16369 rows containing non-finite values (`stat_density()`). 
+2: Removed 150 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17723 rows containing non-finite values (`stat_density()`). 
+2: Removed 173 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 15007 rows containing non-finite values (`stat_density()`). 
+2: Removed 147 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 16488 rows containing non-finite values (`stat_density()`). 
+2: Removed 166 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14034 rows containing non-finite values (`stat_density()`). 
+2: Removed 134 rows containing non-finite values (`stat_density()`). 
+New names:
+• `` -> `...1`
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17241 rows containing non-finite values (`stat_density()`). 
+2: Removed 167 rows containing non-finite values (`stat_density()`). 
+New names:
+• `` -> `...1`
+New names:
+• `` -> `...1`
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14455 rows containing non-finite values (`stat_density()`). 
+2: Removed 134 rows containing non-finite values (`stat_density()`). 
+New names:
+• `` -> `...1`
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+1: Removed 14725 rows containing non-finite values (`stat_density()`). 
+2: Removed 141 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 15379 rows containing non-finite values (`stat_density()`). 
+2: Removed 153 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+Warning messages:
+1: Removed 16638 rows containing non-finite values (`stat_density()`). 
+1: Removed 17108 rows containing non-finite values (`stat_density()`). 
+2: Removed 165 rows containing non-finite values (`stat_density()`). 
+2: Removed 157 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+Warning messages:
+1: Removed 16420 rows containing non-finite values (`stat_density()`). 
+1: Removed 16471 rows containing non-finite values (`stat_density()`). 
+2: Removed 155 rows containing non-finite values (`stat_density()`). 
+2: Removed 153 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+Warning messages:
+1: Removed 16488 rows containing non-finite values (`stat_density()`). 
+2: Removed 162 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 16028 rows containing non-finite values (`stat_density()`). 
+2: Removed 155 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+Warning messages:
+Warning messages:
+1: Removed 18481 rows containing non-finite values (`stat_density()`). 
+1: Removed 16410 rows containing non-finite values (`stat_density()`). 
+2: Removed 170 rows containing non-finite values (`stat_density()`). 
+2: Removed 152 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+Warning messages:
+1: Removed 14929 rows containing non-finite values (`stat_density()`). 
+1: Removed 16282 rows containing non-finite values (`stat_density()`). 
+2: Removed 145 rows containing non-finite values (`stat_density()`). 
+2: Removed 152 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18319 rows containing non-finite values (`stat_density()`). 
+2: Removed 174 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15973 rows containing non-finite values (`stat_density()`). 
+2: Removed 160 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 16581 rows containing non-finite values (`stat_density()`). 
+2: Removed 171 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17936 rows containing non-finite values (`stat_density()`). 
+2: Removed 154 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15023 rows containing non-finite values (`stat_density()`). 
+2: Removed 151 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 17677 rows containing non-finite values (`stat_density()`). 
+2: Removed 165 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15016 rows containing non-finite values (`stat_density()`). 
+2: Removed 141 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 17828 rows containing non-finite values (`stat_density()`). 
+2: Removed 169 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16540 rows containing non-finite values (`stat_density()`). 
+2: Removed 162 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15039 rows containing non-finite values (`stat_density()`). 
+2: Removed 138 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+Warning messages:
+1: There were 1 divergent transitions after warmup. See
+https://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
+to find out why this is a problem and how to eliminate them. 
+2: Examine the pairs() plot to diagnose sampling problems
+ 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15461 rows containing non-finite values (`stat_density()`). 
+2: Removed 153 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16891 rows containing non-finite values (`stat_density()`). 
+1: Removed 16861 rows containing non-finite values (`stat_density()`). 
+2: Removed 166 rows containing non-finite values (`stat_density()`). 
+2: Removed 163 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16790 rows containing non-finite values (`stat_density()`). 
+2: Removed 159 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+Warning messages:
+Warning messages:
+Warning messages:
+1: Removed 17835 rows containing non-finite values (`stat_density()`). 
+1: Removed 16688 rows containing non-finite values (`stat_density()`). 
+1: Removed 16092 rows containing non-finite values (`stat_density()`). 
+1: Removed 13797 rows containing non-finite values (`stat_density()`). 
+2: Removed 156 rows containing non-finite values (`stat_density()`). 
+2: Removed 162 rows containing non-finite values (`stat_density()`). 
+2: Removed 160 rows containing non-finite values (`stat_density()`). 
+2: Removed 136 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14823 rows containing non-finite values (`stat_density()`). 
+2: Removed 135 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+Warning messages:
+1: There were 1 divergent transitions after warmup. See
+https://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
+to find out why this is a problem and how to eliminate them. 
+2: Examine the pairs() plot to diagnose sampling problems
+ 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+1: Removed 16184 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+2: Removed 154 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+Warning messages:
+Warning messages:
+1: Removed 13778 rows containing non-finite values (`stat_density()`). 
+1: Removed 16572 rows containing non-finite values (`stat_density()`). 
+1: Removed 16572 rows containing non-finite values (`stat_density()`). 
+2: Removed 138 rows containing non-finite values (`stat_density()`). 
+2: Removed 152 rows containing non-finite values (`stat_density()`). 
+2: Removed 169 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 19472 rows containing non-finite values (`stat_density()`). 
+2: Removed 175 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 12488 rows containing non-finite values (`stat_density()`). 
+2: Removed 115 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+MCMC converged with seed 2025
+1: Removed 18529 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+2: Removed 169 rows containing non-finite values (`stat_density()`). 
+1: Removed 17560 rows containing non-finite values (`stat_density()`). 
+2: Removed 170 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+1: Removed 16069 rows containing non-finite values (`stat_density()`). 
+2: Removed 164 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 16311 rows containing non-finite values (`stat_density()`). 
+2: Removed 161 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17700 rows containing non-finite values (`stat_density()`). 
+2: Removed 167 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 16461 rows containing non-finite values (`stat_density()`). 
+2: Removed 141 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14183 rows containing non-finite values (`stat_density()`). 
+2: Removed 124 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 14816 rows containing non-finite values (`stat_density()`). 
+2: Removed 148 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 16544 rows containing non-finite values (`stat_density()`). 
+2: Removed 151 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 16071 rows containing non-finite values (`stat_density()`). 
+2: Removed 150 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 16852 rows containing non-finite values (`stat_density()`). 
+2: Removed 167 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 18478 rows containing non-finite values (`stat_density()`). 
+2: Removed 168 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 19369 rows containing non-finite values (`stat_density()`). 
+2: Removed 169 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16795 rows containing non-finite values (`stat_density()`). 
+2: Removed 151 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 17915 rows containing non-finite values (`stat_density()`). 
+2: Removed 172 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+Warning messages:
+Warning messages:
+1: Removed 15116 rows containing non-finite values (`stat_density()`). 
+1: Removed 15269 rows containing non-finite values (`stat_density()`). 
+1: Removed 18632 rows containing non-finite values (`stat_density()`). 
+2: Removed 150 rows containing non-finite values (`stat_density()`). 
+2: Removed 147 rows containing non-finite values (`stat_density()`). 
+2: Removed 175 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17249 rows containing non-finite values (`stat_density()`). 
+2: Removed 163 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+MCMC converged with seed 2025
+Warning messages:
+1: Removed 19592 rows containing non-finite values (`stat_density()`). 
+2: Removed 167 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18118 rows containing non-finite values (`stat_density()`). 
+2: Removed 174 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15446 rows containing non-finite values (`stat_density()`). 
+2: Removed 152 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 12704 rows containing non-finite values (`stat_density()`). 
+2: Removed 124 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18592 rows containing non-finite values (`stat_density()`). 
+2: Removed 168 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 13639 rows containing non-finite values (`stat_density()`). 
+2: Removed 147 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 14648 rows containing non-finite values (`stat_density()`). 
+2: Removed 144 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 18693 rows containing non-finite values (`stat_density()`). 
+2: Removed 173 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+Warning messages:
+1: Removed 17021 rows containing non-finite values (`stat_density()`). 
+2: Removed 163 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18435 rows containing non-finite values (`stat_density()`). 
+2: Removed 173 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17306 rows containing non-finite values (`stat_density()`). 
+2: Removed 158 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 17625 rows containing non-finite values (`stat_density()`). 
+2: Removed 168 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16519 rows containing non-finite values (`stat_density()`). 
+2: Removed 150 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15723 rows containing non-finite values (`stat_density()`). 
+2: Removed 147 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 15902 rows containing non-finite values (`stat_density()`). 
+2: Removed 148 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 19108 rows containing non-finite values (`stat_density()`). 
+2: Removed 172 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18821 rows containing non-finite values (`stat_density()`). 
+2: Removed 174 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 17594 rows containing non-finite values (`stat_density()`). 
+2: Removed 167 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+MCMC converged with seed 2025
+Warning messages:
+1: Removed 16270 rows containing non-finite values (`stat_density()`). 
+2: Removed 150 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15788 rows containing non-finite values (`stat_density()`). 
+2: Removed 146 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18348 rows containing non-finite values (`stat_density()`). 
+2: Removed 168 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+Warning messages:
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+1: Removed 13838 rows containing non-finite values (`stat_density()`). 
+1: Removed 18750 rows containing non-finite values (`stat_density()`). 
+2: Removed 131 rows containing non-finite values (`stat_density()`). 
+2: Removed 168 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18171 rows containing non-finite values (`stat_density()`). 
+2: Removed 169 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+Warning messages:
+MCMC converged with seed 2025
+1: Removed 12731 rows containing non-finite values (`stat_density()`). 
+1: Removed 17362 rows containing non-finite values (`stat_density()`). 
+2: Removed 113 rows containing non-finite values (`stat_density()`). 
+2: Removed 155 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16975 rows containing non-finite values (`stat_density()`). 
+2: Removed 161 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15417 rows containing non-finite values (`stat_density()`). 
+2: Removed 153 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18005 rows containing non-finite values (`stat_density()`). 
+2: Removed 157 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+1: Removed 19455 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+2: Removed 173 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16881 rows containing non-finite values (`stat_density()`). 
+2: Removed 153 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18932 rows containing non-finite values (`stat_density()`). 
+2: Removed 158 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 17580 rows containing non-finite values (`stat_density()`). 
+2: Removed 166 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 17738 rows containing non-finite values (`stat_density()`). 
+2: Removed 161 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 17651 rows containing non-finite values (`stat_density()`). 
+2: Removed 171 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14213 rows containing non-finite values (`stat_density()`). 
+2: Removed 138 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 17699 rows containing non-finite values (`stat_density()`). 
+2: Removed 161 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18023 rows containing non-finite values (`stat_density()`). 
+2: Removed 163 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17704 rows containing non-finite values (`stat_density()`). 
+2: Removed 163 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 18729 rows containing non-finite values (`stat_density()`). 
+2: Removed 165 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15913 rows containing non-finite values (`stat_density()`). 
+2: Removed 154 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 15243 rows containing non-finite values (`stat_density()`). 
+2: Removed 147 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18337 rows containing non-finite values (`stat_density()`). 
+2: Removed 175 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15122 rows containing non-finite values (`stat_density()`). 
+2: Removed 149 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 18927 rows containing non-finite values (`stat_density()`). 
+2: Removed 172 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16348 rows containing non-finite values (`stat_density()`). 
+2: Removed 167 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17054 rows containing non-finite values (`stat_density()`). 
+2: Removed 161 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18493 rows containing non-finite values (`stat_density()`). 
+2: Removed 161 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16661 rows containing non-finite values (`stat_density()`). 
+2: Removed 161 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 19456 rows containing non-finite values (`stat_density()`). 
+2: Removed 166 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 15409 rows containing non-finite values (`stat_density()`). 
+2: Removed 143 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17066 rows containing non-finite values (`stat_density()`). 
+2: Removed 151 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 18417 rows containing non-finite values (`stat_density()`). 
+2: Removed 159 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17320 rows containing non-finite values (`stat_density()`). 
+2: Removed 160 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17692 rows containing non-finite values (`stat_density()`). 
+2: Removed 155 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14057 rows containing non-finite values (`stat_density()`). 
+2: Removed 142 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15056 rows containing non-finite values (`stat_density()`). 
+2: Removed 140 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17995 rows containing non-finite values (`stat_density()`). 
+2: Removed 168 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17254 rows containing non-finite values (`stat_density()`). 
+2: Removed 169 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17088 rows containing non-finite values (`stat_density()`). 
+2: Removed 170 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16544 rows containing non-finite values (`stat_density()`). 
+2: Removed 156 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 14141 rows containing non-finite values (`stat_density()`). 
+2: Removed 148 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+MCMC converged with seed 2025
+Warning messages:
+1: Removed 15674 rows containing non-finite values (`stat_density()`). 
+2: Removed 170 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16219 rows containing non-finite values (`stat_density()`). 
+2: Removed 171 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+Warning messages:
+1: Removed 14238 rows containing non-finite values (`stat_density()`). 
+2: Removed 141 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 11087 rows containing non-finite values (`stat_density()`). 
+2: Removed 104 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 16943 rows containing non-finite values (`stat_density()`). 
+2: Removed 163 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17838 rows containing non-finite values (`stat_density()`). 
+2: Removed 172 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17357 rows containing non-finite values (`stat_density()`). 
+2: Removed 159 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18013 rows containing non-finite values (`stat_density()`). 
+2: Removed 172 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+Warning messages:
+1: There were 1 divergent transitions after warmup. See
+https://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
+to find out why this is a problem and how to eliminate them. 
+2: Examine the pairs() plot to diagnose sampling problems
+ 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14679 rows containing non-finite values (`stat_density()`). 
+2: Removed 153 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17647 rows containing non-finite values (`stat_density()`). 
+2: Removed 170 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18618 rows containing non-finite values (`stat_density()`). 
+2: Removed 166 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17699 rows containing non-finite values (`stat_density()`). 
+2: Removed 166 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15955 rows containing non-finite values (`stat_density()`). 
+2: Removed 155 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 11714 rows containing non-finite values (`stat_density()`). 
+2: Removed 168 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18094 rows containing non-finite values (`stat_density()`). 
+2: Removed 172 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16218 rows containing non-finite values (`stat_density()`). 
+2: Removed 165 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+MCMC converged with seed 2025
+Warning messages:
+1: Removed 18157 rows containing non-finite values (`stat_density()`). 
+2: Removed 172 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15076 rows containing non-finite values (`stat_density()`). 
+2: Removed 142 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14788 rows containing non-finite values (`stat_density()`). 
+2: Removed 133 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14619 rows containing non-finite values (`stat_density()`). 
+2: Removed 138 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14201 rows containing non-finite values (`stat_density()`). 
+2: Removed 138 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15913 rows containing non-finite values (`stat_density()`). 
+2: Removed 154 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17245 rows containing non-finite values (`stat_density()`). 
+2: Removed 169 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14911 rows containing non-finite values (`stat_density()`). 
+2: Removed 146 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 16640 rows containing non-finite values (`stat_density()`). 
+2: Removed 164 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17986 rows containing non-finite values (`stat_density()`). 
+2: Removed 168 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16170 rows containing non-finite values (`stat_density()`). 
+2: Removed 161 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15913 rows containing non-finite values (`stat_density()`). 
+2: Removed 153 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+MCMC converged with seed 2025
+Warning messages:
+1: There were 1 divergent transitions after warmup. See
+https://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
+to find out why this is a problem and how to eliminate them. 
+2: Examine the pairs() plot to diagnose sampling problems
+ 
+Warning messages:
+1: Removed 17039 rows containing non-finite values (`stat_density()`). 
+2: Removed 167 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14629 rows containing non-finite values (`stat_density()`). 
+2: Removed 145 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15902 rows containing non-finite values (`stat_density()`). 
+2: Removed 161 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16110 rows containing non-finite values (`stat_density()`). 
+2: Removed 169 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15155 rows containing non-finite values (`stat_density()`). 
+2: Removed 149 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+Warning messages:
+1: There were 1 divergent transitions after warmup. See
+https://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
+to find out why this is a problem and how to eliminate them. 
+2: Examine the pairs() plot to diagnose sampling problems
+ 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18056 rows containing non-finite values (`stat_density()`). 
+2: Removed 169 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17189 rows containing non-finite values (`stat_density()`). 
+2: Removed 159 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 19062 rows containing non-finite values (`stat_density()`). 
+2: Removed 174 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 9198 rows containing non-finite values (`stat_density()`). 
+2: Removed 173 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16479 rows containing non-finite values (`stat_density()`). 
+2: Removed 173 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16851 rows containing non-finite values (`stat_density()`). 
+2: Removed 152 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 19076 rows containing non-finite values (`stat_density()`). 
+2: Removed 173 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16065 rows containing non-finite values (`stat_density()`). 
+2: Removed 146 rows containing non-finite values (`stat_density()`). 
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 15400 rows containing non-finite values (`stat_density()`). 
+2: Removed 146 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 14247 rows containing non-finite values (`stat_density()`). 
+2: Removed 140 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16689 rows containing non-finite values (`stat_density()`). 
+2: Removed 163 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17122 rows containing non-finite values (`stat_density()`). 
+2: Removed 168 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17178 rows containing non-finite values (`stat_density()`). 
+2: Removed 162 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18012 rows containing non-finite values (`stat_density()`). 
+2: Removed 167 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18129 rows containing non-finite values (`stat_density()`). 
+2: Removed 174 rows containing non-finite values (`stat_density()`). 
+Warning messages:
+1: Removed 15457 rows containing non-finite values (`stat_density()`). 
+2: Removed 143 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16384 rows containing non-finite values (`stat_density()`). 
+2: Removed 154 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18913 rows containing non-finite values (`stat_density()`). 
+2: Removed 175 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 19288 rows containing non-finite values (`stat_density()`). 
+2: Removed 166 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17429 rows containing non-finite values (`stat_density()`). 
+2: Removed 163 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 17716 rows containing non-finite values (`stat_density()`). 
+2: Removed 167 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16104 rows containing non-finite values (`stat_density()`). 
+2: Removed 150 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 18778 rows containing non-finite values (`stat_density()`). 
+2: Removed 167 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 19035 rows containing non-finite values (`stat_density()`). 
+2: Removed 168 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 16530 rows containing non-finite values (`stat_density()`). 
+2: Removed 155 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 19550 rows containing non-finite values (`stat_density()`). 
+2: Removed 171 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 20138 rows containing non-finite values (`stat_density()`). 
+2: Removed 166 rows containing non-finite values (`stat_density()`). 
+MCMC converged with seed 2025
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Warning messages:
+1: Removed 19188 rows containing non-finite values (`stat_density()`). 
+2: Removed 170 rows containing non-finite values (`stat_density()`). 

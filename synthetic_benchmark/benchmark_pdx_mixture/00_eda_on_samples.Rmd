@@ -1,0 +1,185 @@
+---
+title: "EDA on tissue and plasma samples"
+author: "Ning Shen"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: journal
+---
+
+```{r message=FALSE,echo=FALSE}
+setwd('../../../')
+source('code/SETPATHS.R')
+```
+
+# EDA on PRAD PDX samples
+
+## Sample coverages
+
+```{r}
+md_pdx <- fread(here('data', 'metadata', 'Berchuck2022_LuCap_PDX_MeDIP', 'sample_metadata_processed_Berchuck2022_LuCap_PDX_MeDIP.csv'))
+md_pdx |>
+  arrange(desc(million_reads)) |>
+  mutate(Sample_Name = factor(Sample_Name, levels = Sample_Name)) |>
+  ggplot(aes(Sample_Name, million_reads)) +
+  geom_bar(stat = 'identity') +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+
+```
+
+## Deconvoluted cell types
+
+```{r}
+read_dir <-  here('data', 'interim', 'case_studies', 'berchuck2022', '01_apply_deconv')
+all_samples_pi.df <- data.frame()
+for (i in seq_len(nrow(md_pdx))) {
+
+  sample <- md_pdx$Sample_Name[i]
+  group <- md_pdx$`Tumor Type`[i]
+
+  sample_pi.df <- fread(here(read_dir, paste0('fitted_pi_', sample,'.csv'))) |>
+    select(cell_type, mean, `2.5%`, `25%`, `50%`, `75%`, `97.5%`) |>
+    mutate(sample = sample, group = group) |>
+    relocate(sample, group)
+
+  all_samples_pi.df <- all_samples_pi.df |> rbind(sample_pi.df)
+}
+
+```
+
+## Deconvoluted cell type proportions
+
+```{r, fig.width=10, fig.height=8}
+color_count <- length(unique(all_samples_pi.df$cell_type))
+getPalette <- colorRampPalette(RColorBrewer::brewer.pal(7, "Set1"))
+all_samples_pi.df |>
+  arrange(desc(mean)) |>
+  mutate(cell_type = factor(cell_type, levels = rev(unique(cell_type)))) |>
+  mutate(sample = fct_reorder(sample, mean, .fun = max, .desc = TRUE)) |>
+  ggplot(aes(fill = cell_type, y = mean, x = sample)) + 
+  geom_bar(position = "stack", stat = "identity", width = 0.5, color = 'white') +
+  facet_grid(~ group, scales = 'free_x', space='free') +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_y_continuous(expand = c(0.01, 0), limits = c(0, 1)) +
+  xlab('sample') + 
+  ylab('Estimated cell type proportions') + 
+  scale_fill_manual(values = getPalette(color_count)) +
+  guides(fill = guide_legend(ncol=1))
+
+```
+
+
+## Posterior of prostate proportion
+
+```{r}
+all_samples_pi.df |>
+  arrange(desc(mean)) |>
+  filter(cell_type == 'Prostate') |>
+  mutate(sample = fct_reorder(sample, mean, .fun = max, .desc = TRUE)) |>
+  ggplot(aes(y = mean, x = sample)) + 
+  geom_pointrange(aes(ymin = `2.5%`, ymax = `97.5%`)) + 
+  geom_linerange(aes(ymin = `25%`, ymax = `75%`), size = 1.5, color = 'darkred') + 
+  geom_point() +
+  facet_grid(~ group, scales = 'free_x', space = 'free') +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_y_continuous(expand = c(0.01, 0), limits = c(0, 1)) +
+  xlab('sample') + 
+  ylab('Estimated proportion of prostate') 
+```
+
+# EDA on healthy plasma samples
+
+## Sample coverage
+
+```{r}
+md_plasma <- fread(here('data', 'metadata', 'shen2018', 'sample_metadata_processed_shen2018.csv')) |>
+  filter(group == 'Control') ## Samples used in the simulation
+md_plasma |>
+  arrange(desc(million_reads)) |>
+  mutate(sample = factor(sample, levels = sample)) |>
+  ggplot(aes(sample, million_reads)) +
+  geom_bar(stat = 'identity') +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+```
+
+# Find coverage-matched samples
+
+```{r}
+md_plasma2 <- fread(here('data', 'metadata', 'shen2018', 'sample_metadata_processed_shen2018.csv')) |>
+  filter(group == 'Control') |> ## Samples used in the simulation
+  dplyr::select(sample, million_reads) |>
+  mutate(type = 'plasma')
+md_pdx2 <- fread(here('data', 'metadata', 'Berchuck2022_LuCap_PDX_MeDIP', 'sample_metadata_processed_Berchuck2022_LuCap_PDX_MeDIP.csv')) |>
+  dplyr::select(Sample_Name, million_reads) |>
+  rename(Sample_Name = 'sample') |>
+  mutate(type = 'PDX')
+md2 <- rbind(md_plasma2, md_pdx2)
+```
+
+```{r, fig.width=10, fig.height=8}
+md2 |>
+  arrange(desc(million_reads)) |>
+  mutate(sample = factor(sample, levels = sample)) |>
+  ggplot(aes(sample, million_reads, fill = type)) +
+  geom_bar(stat = 'identity') +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+```
+
+
+# Regression parameter from the two sets of samples
+
+## w_mu
+```{r}
+w_mu_pdx.df <- fread(here('data', 'interim', 'case_studies', 'berchuck2022', '02_summarize_results', paste0('estimated_w_mu.csv.gz'))) |>
+  mutate(type = 'PDX')
+w_mu_plasma.df <- fread(here('data', 'interim', 'case_studies', 'shen2018_new', '02_summarize_results', paste0('estimated_w_mu.csv.gz'))) |>
+  filter(group == 'Control') |>
+  mutate(type = 'plasma')
+
+w_mu.df <- rbind(w_mu_pdx.df, w_mu_plasma.df)
+```
+
+```{r}
+w_mu.df |>
+  ggplot(aes(million_reads, mean)) +
+  geom_errorbar(aes(ymin = `2.5%`, ymax = `97.5%`, color = type), linewidth = 0.5, alpha = 0.5) + 
+  geom_point(aes(color = type), size = 1) +
+  # geom_smooth(method = 'lm', color = 'tomato4', linetype = 'dashed') + 
+  geom_hline(yintercept = 0, linetype = 'dashed') + 
+  facet_wrap(~ parameter, labeller = label_parsed) +
+  ggsci::scale_color_simpsons() +
+  theme_classic() +
+  xlab('Total coverage (million reads)') +
+  ylab('Estimate')
+```
+
+## w_sigma
+```{r}
+w_sigma_pdx.df <- fread(here('data', 'interim', 'case_studies', 'berchuck2022', '02_summarize_results', paste0('estimated_w_sigma.csv.gz'))) |>
+  mutate(type = 'PDX')
+w_sigma_plasma.df <- fread(here('data', 'interim', 'case_studies', 'shen2018_new', '02_summarize_results', paste0('estimated_w_sigma.csv.gz'))) |>
+  filter(group == 'Control') |>
+  mutate(type = 'plasma')
+
+w_sigma.df <- rbind(w_sigma_pdx.df, w_sigma_plasma.df)
+```
+
+```{r}
+w_sigma.df |>
+  ggplot(aes(million_reads, mean)) +
+  geom_errorbar(aes(ymin = `2.5%`, ymax = `97.5%`, color = type), linewidth = 0.5, alpha = 0.5) + 
+  geom_point(aes(color = type), size = 1) +
+  # geom_smooth(method = 'lm', color = 'tomato4', linetype = 'dashed') + 
+  geom_hline(yintercept = 0, linetype = 'dashed') + 
+  facet_wrap(~ parameter, labeller = label_parsed) +
+  ggsci::scale_color_simpsons() +
+  theme_classic() +
+  xlab('Total coverage (million reads)') +
+  ylab('Estimate')
+```

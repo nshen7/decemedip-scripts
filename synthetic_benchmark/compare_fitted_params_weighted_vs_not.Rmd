@@ -1,0 +1,147 @@
+---
+title: "Compare fitted parameters from weighted sites vs. not"
+output: html_document
+date: "2024-11-14"
+---
+
+# Experiment Overview
+
+Parameters were estimated by the decemedip model on 3 healthy plasma samples (each has low, medium and high read coverage).
+
+This markdown shows difference made by applying uniform and non-uniform likelihood weights on reference sites
+
+- Uniformly weighted (i.e., unweighted):
+  - Weight on cell type-specific sites: 1
+  - Weight on anchor sites: 1
+
+- Non-uniformly weighted (i.e., weighted):
+  - Weight on cell type-specific sites: 1
+  - Weight on anchor sites: 0.5
+
+```{r setup, include=FALSE}
+# knitr::opts_knit$set(root.dir = '/scratch/st-kdkortha-1/nshen7/cfMeDIP_deconv/cfMeDIP-deconv-experiments')
+knitr::opts_chunk$set(echo = TRUE)
+setwd('/scratch/st-kdkortha-1/nshen7/cfMeDIP_deconv/cfMeDIP-deconv-experiments')
+source('code/SETPATHS.R')
+library(decemedip)
+devtools::load_all('../decemedip/') # to load new changes in functions
+```
+
+```{r, include=FALSE}
+read_dir_0 <- here('data', 'interim', 'synthetic_benchmark_new', 'benchmark_simulated_allcelltypes', '02_extract_parameter_posterior')
+read_dir_1 <- here('data', 'interim', 'synthetic_benchmark_new', 'benchmark_simulated_allcelltypes_weighted', '02_extract_parameter_posterior')
+
+ref_cts <- readRDS(here('data', 'metadata', 'references', 'MethAtlas', 
+                        'summarizedexperiment_cell_type_specific_atlas_v3.rds'))
+```
+
+```{r, include=FALSE}
+gatherData <- function(COVERAGE) {
+  name_seg <- paste0('_cov', COVERAGE)
+
+  w_mu_0 <- fread(here(read_dir_0, paste0('param_posterior_w_mu', name_seg, '.csv'))) |> mutate(prior_type = 'Unweighted')
+  w_sigma_0 <- fread(here(read_dir_0, paste0('param_posterior_w_sigma', name_seg, '.csv'))) |> mutate(prior_type = 'Unweighted')
+  pi_0 <- fread(here(read_dir_0, paste0('param_posterior_pi', name_seg, '.csv'))) |> mutate(prior_type = 'Unweighted')
+  
+  w_mu_1 <- fread(here(read_dir_1, paste0('param_posterior_w_mu', name_seg, '.csv'))) |> mutate(prior_type = 'Weighted')
+  w_sigma_1 <- fread(here(read_dir_1, paste0('param_posterior_w_sigma', name_seg, '.csv'))) |> mutate(prior_type = 'Weighted')
+  pi_1 <- fread(here(read_dir_1, paste0('param_posterior_pi', name_seg, '.csv'))) |> mutate(prior_type = 'Weighted')
+  
+  w_mu <- rbind(w_mu_0, w_mu_1)
+  w_sigma <- rbind(w_sigma_0, w_sigma_1)
+  pi <- rbind(pi_0, pi_1)
+  
+  return(list(w_mu = w_mu, w_sigma = w_sigma, pi = pi))
+}
+
+plotMu <- function(w_mu) {
+  p <- w_mu |> 
+    ggplot(aes(param_name, mean, color = prior_type)) +
+    geom_linerange(aes(ymin = `2.5%`, ymax = `97.5%`), 
+                   position = position_dodge2(width = 0.35)) +
+    geom_point(position = position_dodge2(width = 0.35)) +
+    theme_classic()
+  return(p)
+}
+
+plotSigma <- function(w_sigma) {
+  p <- w_sigma |> 
+    ggplot(aes(param_name, mean, color = prior_type)) +
+    geom_linerange(aes(ymin = `2.5%`, ymax = `97.5%`), 
+                   position = position_dodge2(width = 0.35)) +
+    geom_point(position = position_dodge2(width = 0.35)) +
+    theme_classic()
+  return(p)
+}
+
+plotPi <- function(pi) {
+  p <- pi |> 
+    mutate(cell_type = factor(cell_type, levels = colnames(ref_cts))) |>
+    ggplot(aes(cell_type, mean, color = prior_type)) +
+    geom_linerange(aes(ymin = `2.5%`, ymax = `97.5%`), 
+                   position = position_dodge2(width = 0.35)) +
+    geom_point(position = position_dodge2(width = 0.35)) +
+    theme_classic() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  return(p)
+}
+
+```
+
+# Low-coverage samples
+
+```{r}
+cur_list <- gatherData(COVERAGE = 1) 
+list2env(cur_list, envir = .GlobalEnv)
+```
+
+```{r}
+plotMu(w_mu)
+```
+
+```{r}
+plotSigma(w_sigma)
+```
+
+```{r}
+plotPi(pi)
+```
+
+# Medium-coverage samples
+
+```{r}
+cur_list <- gatherData(COVERAGE = 2) 
+list2env(cur_list, envir = .GlobalEnv)
+```
+
+```{r}
+plotMu(w_mu)
+```
+
+```{r}
+plotSigma(w_sigma)
+```
+
+```{r}
+plotPi(pi)
+```
+
+# High-coverage samples
+
+```{r}
+cur_list <- gatherData(COVERAGE = 3) 
+list2env(cur_list, envir = .GlobalEnv)
+```
+
+```{r}
+plotMu(w_mu)
+```
+
+```{r}
+plotSigma(w_sigma)
+```
+
+```{r}
+plotPi(pi)
+```
+

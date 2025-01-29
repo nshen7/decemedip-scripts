@@ -1,0 +1,532 @@
+[1] TRUE
+[1] TRUE
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18 
+431 425 316 304 284 251 211 187 153 145  91  80  52  34  24   5   5   2 
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18 
+116 118  81 105  98 110  83  62  66  62  29  34  14   9   6   2   4   1 
+              0% 25% 50%   75% 100%   99.9%
+LuCaP_147CR    0   0   0  0.00  405 358.010
+LuCap_23.1CR   0   0   0  4.00  390 350.024
+LuCaP_70CR     0   0   0  5.00  503 417.022
+LuCaP_73CR     0   0   0  6.00  318 274.000
+LuCaP_77CR     0   0   0  5.00  448 373.008
+LuCaP_86.2CR   0   0   0  8.00  200 178.004
+LuCaP_96CR     0   0   0  8.00  303 258.003
+LuCaP_173.2    0   0   0  2.00  108 105.003
+LuCaP_49_2015  0   0   0  0.00   71  40.003
+LuCaP_49_2018  0   0   0  0.00  214 125.006
+LuCaP_208.2    0   0   0  8.00  361 320.007
+LuCaP_173.1    0   0   0 10.00  579 238.253
+LuCaP_93       0   0   0  7.00  412 200.026
+LuCaP_145.1    0   0   0 10.00  202 145.009
+LuCaP_145.2    0   0   0  7.00  283 182.005
+LuCaP_147      0   0   0  1.00  457 321.000
+LuCaP_23.1     0   0   0  3.00  165 150.005
+LuCaP_35       0   0   0  6.00  366 303.007
+LuCaP_73       0   0   0  6.00  708 560.055
+LuCaP_81       0   0   0  8.25  340 251.000
+LuCaP_86.2     0   0   0  4.00  121 102.000
+LuCaP_96       0   0   0  7.00  456 437.011
+LuCaP_105      0   0   0  7.00  662 578.026
+LuCaP_136      0   0   0  7.00  316 268.002
+LuCaP_58       0   0   0 13.00  498 434.002
+LuCaP_70       0   0   0  2.00  539 167.025
+LuCaP_77       0   0   0  0.00  515 367.044
+LuCaP_78       0   0   0  6.25  276 241.009
+LuCaP_92       0   0   0  8.00  374 344.013
+LuCaP_35CR     0   0   0  1.00 1073 443.312
+LuCaP_78CR     0   0   0  0.00  368 324.011
+LuCaP_136CR    0   0   0  4.00  294 184.001
+  LuCaP_147CR  LuCap_23.1CR    LuCaP_70CR    LuCaP_73CR    LuCaP_77CR 
+        28203         31938         31928         35038         26495 
+ LuCaP_86.2CR    LuCaP_96CR   LuCaP_173.2 LuCaP_49_2015 LuCaP_49_2018 
+        33135         32962         13172          1024         13318 
+  LuCaP_208.2   LuCaP_173.1      LuCaP_93   LuCaP_145.1   LuCaP_145.2 
+        40446         54361         36953         33388         30237 
+    LuCaP_147    LuCaP_23.1      LuCaP_35      LuCaP_73      LuCaP_81 
+        36577         19679         38427         39030         36299 
+   LuCaP_86.2      LuCaP_96     LuCaP_105     LuCaP_136      LuCaP_58 
+        17867         37882         52219         37784         44955 
+     LuCaP_70      LuCaP_77      LuCaP_78      LuCaP_92    LuCaP_35CR 
+        29363         40117         29014         31745         48271 
+   LuCaP_78CR   LuCaP_136CR 
+        29785         28477 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).
+Chain 1: 
+Chain 1: Gradient evaluation took 0.003544 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 35.44 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 2: 
+Chain 2: Gradient evaluation took 0.003412 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 34.12 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 3: 
+Chain 3: Gradient evaluation took 0.003432 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 34.32 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 1: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain 2: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain 3: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain 4: 
+Chain 4: Gradient evaluation took 0.003581 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 35.81 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain 4: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 2: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 1: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 4: Iteration: 200 / 1000 [ 20%]  (Warmup)
+Chain 2: Iteration: 200 / 1000 [ 20%]  (Warmup)
+Chain 3: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 1: Iteration: 200 / 1000 [ 20%]  (Warmup)
+Chain 4: Iteration: 300 / 1000 [ 30%]  (Warmup)
+Chain 2: Iteration: 300 / 1000 [ 30%]  (Warmup)
+Chain 3: Iteration: 200 / 1000 [ 20%]  (Warmup)
+Chain 1: Iteration: 300 / 1000 [ 30%]  (Warmup)
+Chain 4: Iteration: 400 / 1000 [ 40%]  (Warmup)
+Chain 2: Iteration: 400 / 1000 [ 40%]  (Warmup)
+Chain 1: Iteration: 400 / 1000 [ 40%]  (Warmup)
+Chain 3: Iteration: 300 / 1000 [ 30%]  (Warmup)
+Chain 4: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 4: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain 2: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 2: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain 1: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 1: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain 3: Iteration: 400 / 1000 [ 40%]  (Warmup)
+Chain 4: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 2: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 1: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 3: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 3: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain Chain 42: : Iteration: 700 / 1000 [ 70%]  (Sampling)Iteration: 700 / 1000 [ 70%]  (Sampling)
+
+Chain 1: Iteration: 700 / 1000 [ 70%]  (Sampling)
+Chain 3: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 2: Iteration: 800 / 1000 [ 80%]  (Sampling)
+Chain 4: Iteration: 800 / 1000 [ 80%]  (Sampling)
+Chain 1: Iteration: 800 / 1000 [ 80%]  (Sampling)
+Chain 3: Iteration: 700 / 1000 [ 70%]  (Sampling)
+Chain Chain 2Chain 4Chain : 3: 1Iteration: 900 / 1000 [ 90%]  (Sampling): Iteration: 900 / 1000 [ 90%]  (Sampling): 
+Iteration: 800 / 1000 [ 80%]  (Sampling)
+Iteration: 900 / 1000 [ 90%]  (Sampling)
+
+Chain 3: Iteration: 900 / 1000 [ 90%]  (Sampling)
+Chain 1: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 4: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 2: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 163.888 seconds (Warm-up)
+Chain 1:                96.558 seconds (Sampling)
+Chain 1:                260.446 seconds (Total)
+Chain 1: 
+Chain 4: 
+Chain 4:  Elapsed Time: 155.267 seconds (Warm-up)
+Chain 4:                105.129 seconds (Sampling)
+Chain 4:                260.396 seconds (Total)
+Chain 4: 
+Chain 2: 
+Chain 2:  Elapsed Time: 156.534 seconds (Warm-up)
+Chain 2:                103.969 seconds (Sampling)
+Chain 2:                260.503 seconds (Total)
+Chain 2: 
+Chain 3: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 185.695 seconds (Warm-up)
+Chain 3:                93.815 seconds (Sampling)
+Chain 3:                279.51 seconds (Total)
+Chain 3: 
+Inference for the input samples (4 chains: each with iter = 500; warmup = 250):
+
+             Q5     Q50     Q95    Mean     SD   Rhat Bulk_ESS Tail_ESS
+w_mu[1] -3.0320 -2.5175 -2.0520 -2.5329 0.3046 1.0026     1819      744
+w_mu[2]  1.0216  1.8053  2.4833  1.7895 0.4418 1.0040     1317      811
+w_mu[3]  2.8042  3.6716  4.5454  3.6686 0.5327 0.9998     1270      779
+w_mu[4] -1.7004 -0.9613 -0.1852 -0.9504 0.4715 1.0002     1432      864
+w_mu[5]  1.5433  1.6672  1.8052  1.6704 0.0815 1.0080     2157      831
+
+For each parameter, Bulk_ESS and Tail_ESS are crude measures of 
+effective sample size for bulk and tail quantities respectively (an ESS > 100 
+per chain is considered good), and Rhat is the potential scale reduction 
+factor on rank normalized split chains (at convergence, Rhat <= 1.05).
+Inference for the input samples (4 chains: each with iter = 500; warmup = 250):
+
+                Q5     Q50     Q95    Mean     SD   Rhat Bulk_ESS Tail_ESS
+w_sigma[1] -1.2340 -0.8103 -0.3908 -0.8091 0.2532 1.0039     1570      810
+w_sigma[2]  1.4404  2.0286  2.6344  2.0158 0.3748 1.0098     1095      828
+w_sigma[3]  3.2606  4.0387  4.7086  4.0188 0.4449 1.0013     1079      730
+w_sigma[4] -0.6569 -0.0458  0.6360 -0.0415 0.3967 0.9983     1349      994
+w_sigma[5] -2.4761 -2.3977 -2.3173 -2.3974 0.0482 1.0004     2724      947
+
+For each parameter, Bulk_ESS and Tail_ESS are crude measures of 
+effective sample size for bulk and tail quantities respectively (an ESS > 100 
+per chain is considered good), and Rhat is the potential scale reduction 
+factor on rank normalized split chains (at convergence, Rhat <= 1.05).
+Inference for the input samples (4 chains: each with iter = 500; warmup = 250):
+
+           Q5    Q50    Q95   Mean     SD   Rhat Bulk_ESS Tail_ESS
+pi[1]  0.0000 0.0003 0.0024 0.0006 0.0011 1.0014      947      751
+pi[2]  0.0000 0.0003 0.0020 0.0005 0.0008 1.0047      976      910
+pi[3]  0.0000 0.0003 0.0024 0.0006 0.0011 1.0028      971      697
+pi[4]  0.0000 0.0002 0.0019 0.0005 0.0009 1.0043     1040      822
+pi[5]  0.0000 0.0002 0.0021 0.0006 0.0010 1.0036      870      811
+pi[6]  0.0000 0.0003 0.0028 0.0007 0.0012 1.0003     1348      566
+pi[7]  0.0000 0.0003 0.0022 0.0006 0.0009 0.9999     1163      992
+pi[8]  0.0001 0.0013 0.0077 0.0023 0.0028 1.0014     1450      858
+pi[9]  0.0001 0.0008 0.0052 0.0015 0.0022 0.9983     1227      794
+pi[10] 0.0001 0.0008 0.0066 0.0018 0.0026 0.9989     1437      939
+pi[11] 0.0002 0.0016 0.0099 0.0029 0.0037 1.0005     1525      990
+pi[12] 0.0001 0.0011 0.0075 0.0021 0.0029 1.0069     1524      776
+pi[13] 0.0001 0.0013 0.0115 0.0030 0.0050 1.0012     1366      723
+pi[14] 0.0002 0.0015 0.0093 0.0027 0.0036 1.0044     1125      830
+pi[15] 0.0001 0.0012 0.0075 0.0022 0.0030 1.0001     1748      852
+pi[16] 0.0002 0.0027 0.0298 0.0069 0.0112 1.0032     1358      839
+pi[17] 0.0001 0.0009 0.0054 0.0016 0.0019 1.0007     1617      937
+pi[18] 0.0005 0.0031 0.0175 0.0053 0.0068 1.0015     1699      789
+pi[19] 0.0004 0.0050 0.0522 0.0130 0.0254 1.0030     2063      795
+pi[20] 0.0004 0.0026 0.0127 0.0041 0.0045 0.9993     1468      891
+pi[21] 0.0002 0.0013 0.0082 0.0023 0.0027 0.9986     1586      895
+pi[22] 0.8727 0.9447 0.9795 0.9366 0.0385 0.9989     1302      800
+pi[23] 0.0001 0.0009 0.0059 0.0017 0.0024 1.0018     1315      799
+pi[24] 0.0002 0.0015 0.0082 0.0024 0.0029 1.0029     1167      936
+pi[25] 0.0003 0.0020 0.0107 0.0033 0.0040 0.9972     1573      699
+
+For each parameter, Bulk_ESS and Tail_ESS are crude measures of 
+effective sample size for bulk and tail quantities respectively (an ESS > 100 
+per chain is considered good), and Rhat is the potential scale reduction 
+factor on rank normalized split chains (at convergence, Rhat <= 1.05).
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).
+
+
+SAMPLINGSAMPLING FOR MODEL ' FOR MODEL 'anon_modelanon_model' NOW (CHAIN ' NOW (CHAIN 23).
+).
+Chain 1: 
+Chain 1: Gradient evaluation took 0.005755 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 57.55 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain 4: 
+Chain 4: Gradient evaluation took 0.005452 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 54.52 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain Chain 23: : 
+
+Chain Chain 23: : Gradient evaluation took 0.006034 secondsGradient evaluation took 0.006428 seconds
+
+Chain Chain 23: : 1000 transitions using 10 leapfrog steps per transition would take 60.34 seconds.1000 transitions using 10 leapfrog steps per transition would take 64.28 seconds.
+
+Chain Chain 2: 3Adjust your expectations accordingly!: 
+Adjust your expectations accordingly!Chain 
+2Chain : 3
+: Chain 
+2Chain : 3
+: 
+Chain 2: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain 3: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain 3: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 2: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 1: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 3: Iteration: 200 / 1000 [ 20%]  (Warmup)
+Chain 2: Iteration: 200 / 1000 [ 20%]  (Warmup)
+Chain 4: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 1: Iteration: 200 / 1000 [ 20%]  (Warmup)
+Chain 2: Iteration: 300 / 1000 [ 30%]  (Warmup)
+Chain 3: Iteration: 300 / 1000 [ 30%]  (Warmup)
+Chain Chain 4Chain 1Chain : 2: 3Iteration: 200 / 1000 [ 20%]  (Warmup): Iteration: 300 / 1000 [ 30%]  (Warmup): 
+Iteration: 400 / 1000 [ 40%]  (Warmup)
+Iteration: 400 / 1000 [ 40%]  (Warmup)
+
+Chain 1: Iteration: 400 / 1000 [ 40%]  (Warmup)
+Chain 3: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 3: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain 4: Iteration: 300 / 1000 [ 30%]  (Warmup)
+Chain 2: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 2: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain 1: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 1: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain 4: Iteration: 400 / 1000 [ 40%]  (Warmup)
+Chain 3: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 2: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 1: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 3: Iteration: 700 / 1000 [ 70%]  (Sampling)
+Chain 2: Iteration: 700 / 1000 [ 70%]  (Sampling)
+Chain 4: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 4: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain Chain 31: : Iteration: 800 / 1000 [ 80%]  (Sampling)Iteration: 700 / 1000 [ 70%]  (Sampling)
+
+Chain 2: Iteration: 800 / 1000 [ 80%]  (Sampling)
+Chain 4: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 3: Iteration: 900 / 1000 [ 90%]  (Sampling)
+Chain 2: Iteration: 900 / 1000 [ 90%]  (Sampling)
+Chain 1: Iteration: 800 / 1000 [ 80%]  (Sampling)
+Chain 4: Iteration: 700 / 1000 [ 70%]  (Sampling)
+Chain 3: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 163.896 seconds (Warm-up)
+Chain 3:                92.721 seconds (Sampling)
+Chain 3:                256.617 seconds (Total)
+Chain 3: 
+Chain 2: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 165.302 seconds (Warm-up)
+Chain 2:                92.757 seconds (Sampling)
+Chain 2:                258.059 seconds (Total)
+Chain 2: 
+Chain 4: Iteration: 800 / 1000 [ 80%]  (Sampling)
+Chain 1: Iteration: 900 / 1000 [ 90%]  (Sampling)
+Chain 4: Iteration: 900 / 1000 [ 90%]  (Sampling)
+Chain 1: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 181.023 seconds (Warm-up)
+Chain 1:                99.285 seconds (Sampling)
+Chain 1:                280.308 seconds (Total)
+Chain 1: 
+Chain 4: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 203.914 seconds (Warm-up)
+Chain 4:                93.564 seconds (Sampling)
+Chain 4:                297.478 seconds (Total)
+Chain 4: 
+Inference for the input samples (4 chains: each with iter = 500; warmup = 250):
+
+             Q5     Q50     Q95    Mean     SD   Rhat Bulk_ESS Tail_ESS
+w_mu[1] -2.6119 -2.1000 -1.6413 -2.1085 0.2887 1.0018     1488      724
+w_mu[2]  0.9371  1.6145  2.2754  1.6110 0.4141 1.0013     1241      971
+w_mu[3]  3.2420  4.0512  4.9094  4.0563 0.5008 1.0034      990      662
+w_mu[4] -1.1028 -0.3292  0.4799 -0.3175 0.4788 1.0027     1151      772
+w_mu[5]  1.5908  1.7260  1.8646  1.7267 0.0839 1.0057     1890      781
+
+For each parameter, Bulk_ESS and Tail_ESS are crude measures of 
+effective sample size for bulk and tail quantities respectively (an ESS > 100 
+per chain is considered good), and Rhat is the potential scale reduction 
+factor on rank normalized split chains (at convergence, Rhat <= 1.05).
+Inference for the input samples (4 chains: each with iter = 500; warmup = 250):
+
+                Q5     Q50     Q95    Mean     SD   Rhat Bulk_ESS Tail_ESS
+w_sigma[1] -0.3394  0.0277  0.3919  0.0211 0.2175 1.0095     1438      694
+w_sigma[2]  1.5130  2.1465  2.7624  2.1386 0.3845 1.0001     1109      906
+w_sigma[3]  3.1983  3.9500  4.6675  3.9569 0.4530 1.0024      876      735
+w_sigma[4] -0.3683  0.2881  0.9792  0.2906 0.4017 1.0034     1040      892
+w_sigma[5] -2.6357 -2.5505 -2.4664 -2.5497 0.0507 1.0064     2401      796
+
+For each parameter, Bulk_ESS and Tail_ESS are crude measures of 
+effective sample size for bulk and tail quantities respectively (an ESS > 100 
+per chain is considered good), and Rhat is the potential scale reduction 
+factor on rank normalized split chains (at convergence, Rhat <= 1.05).
+Inference for the input samples (4 chains: each with iter = 500; warmup = 250):
+
+           Q5    Q50    Q95   Mean     SD   Rhat Bulk_ESS Tail_ESS
+pi[1]  0.0000 0.0003 0.0027 0.0007 0.0012 1.0024      851      784
+pi[2]  0.0000 0.0003 0.0027 0.0007 0.0013 1.0007     1090      808
+pi[3]  0.0000 0.0003 0.0028 0.0008 0.0016 1.0010      981      974
+pi[4]  0.0000 0.0002 0.0022 0.0006 0.0009 1.0017     1010      753
+pi[5]  0.0000 0.0003 0.0032 0.0008 0.0013 1.0014      921      862
+pi[6]  0.0000 0.0003 0.0029 0.0007 0.0012 1.0004     1090      965
+pi[7]  0.0000 0.0003 0.0025 0.0007 0.0011 1.0017     1099      825
+pi[8]  0.0002 0.0015 0.0100 0.0028 0.0039 1.0031     1718      796
+pi[9]  0.0001 0.0009 0.0066 0.0018 0.0026 1.0038     1512      865
+pi[10] 0.0001 0.0009 0.0061 0.0017 0.0022 0.9979     1266      952
+pi[11] 0.0002 0.0019 0.0123 0.0035 0.0046 1.0004     1495      987
+pi[12] 0.0001 0.0017 0.0168 0.0039 0.0062 1.0013     1498     1002
+pi[13] 0.0001 0.0017 0.0159 0.0041 0.0079 1.0012     1441      970
+pi[14] 0.0002 0.0021 0.0134 0.0039 0.0053 1.0086     1235      824
+pi[15] 0.0002 0.0012 0.0084 0.0024 0.0034 0.9988     1603      835
+pi[16] 0.0003 0.0084 0.1101 0.0260 0.0385 1.0028     1026      999
+pi[17] 0.0001 0.0011 0.0065 0.0019 0.0023 1.0019     1418      980
+pi[18] 0.0007 0.0040 0.0200 0.0064 0.0068 0.9995     1779      972
+pi[19] 0.0006 0.0049 0.0363 0.0101 0.0134 0.9981     1481      758
+pi[20] 0.0004 0.0029 0.0134 0.0045 0.0051 0.9999     1939      991
+pi[21] 0.0002 0.0015 0.0096 0.0027 0.0034 1.0070     1202      837
+pi[22] 0.8102 0.9222 0.9714 0.9105 0.0513 0.9994     1074      935
+pi[23] 0.0001 0.0011 0.0058 0.0018 0.0022 0.9999     1556      758
+pi[24] 0.0002 0.0017 0.0110 0.0032 0.0039 1.0007     1610      973
+pi[25] 0.0003 0.0021 0.0113 0.0036 0.0044 1.0023     1605      623
+
+For each parameter, Bulk_ESS and Tail_ESS are crude measures of 
+effective sample size for bulk and tail quantities respectively (an ESS > 100 
+per chain is considered good), and Rhat is the potential scale reduction 
+factor on rank normalized split chains (at convergence, Rhat <= 1.05).
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).
+Chain 1: 
+Chain 1: Gradient evaluation took 0.005808 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 58.08 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain 2: 
+Chain 2: Gradient evaluation took 0.006058 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 60.58 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain 3: 
+Chain 3: Gradient evaluation took 0.006049 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 60.49 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain 4: 
+Chain 4: Gradient evaluation took 0.005875 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 58.75 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:   1 / 1000 [  0%]  (Warmup)
+Chain 1: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 3: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 4: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 2: Iteration: 100 / 1000 [ 10%]  (Warmup)
+Chain 1: Iteration: 200 / 1000 [ 20%]  (Warmup)
+Chain 3: Iteration: 200 / 1000 [ 20%]  (Warmup)
+Chain Chain 42: : Iteration: 200 / 1000 [ 20%]  (Warmup)Iteration: 200 / 1000 [ 20%]  (Warmup)
+
+Chain 1: Iteration: 300 / 1000 [ 30%]  (Warmup)
+Chain 3: Iteration: 300 / 1000 [ 30%]  (Warmup)
+Chain 2: Iteration: 300 / 1000 [ 30%]  (Warmup)
+Chain 4: Iteration: 300 / 1000 [ 30%]  (Warmup)
+Chain 1: Iteration: 400 / 1000 [ 40%]  (Warmup)
+Chain 3: Iteration: 400 / 1000 [ 40%]  (Warmup)
+Chain 2: Iteration: 400 / 1000 [ 40%]  (Warmup)
+Chain 4: Iteration: 400 / 1000 [ 40%]  (Warmup)
+Chain 1: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 1: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain 3: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 3: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain 2: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 2: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain 4: Iteration: 500 / 1000 [ 50%]  (Warmup)
+Chain 4: Iteration: 501 / 1000 [ 50%]  (Sampling)
+Chain 1: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 3: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 2: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 4: Iteration: 600 / 1000 [ 60%]  (Sampling)
+Chain 1: Iteration: 700 / 1000 [ 70%]  (Sampling)
+Chain 3: Iteration: 700 / 1000 [ 70%]  (Sampling)
+Chain 4: Iteration: 700 / 1000 [ 70%]  (Sampling)
+Chain 2: Iteration: 700 / 1000 [ 70%]  (Sampling)
+Chain 1: Iteration: 800 / 1000 [ 80%]  (Sampling)
+Chain 3: Iteration: 800 / 1000 [ 80%]  (Sampling)
+Chain 4: Iteration: 800 / 1000 [ 80%]  (Sampling)
+Chain 2: Iteration: 800 / 1000 [ 80%]  (Sampling)
+Chain 1: Iteration: 900 / 1000 [ 90%]  (Sampling)
+Chain 3: Iteration: 900 / 1000 [ 90%]  (Sampling)
+Chain 4: Iteration: 900 / 1000 [ 90%]  (Sampling)
+Chain 2: Iteration: 900 / 1000 [ 90%]  (Sampling)
+Chain 1: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 132.085 seconds (Warm-up)
+Chain 1:                92.219 seconds (Sampling)
+Chain 1:                224.304 seconds (Total)
+Chain 1: 
+Chain 3: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 141.768 seconds (Warm-up)
+Chain 3:                89.697 seconds (Sampling)
+Chain 3:                231.465 seconds (Total)
+Chain 3: 
+Chain 4: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 147.925 seconds (Warm-up)
+Chain 4:                90.327 seconds (Sampling)
+Chain 4:                238.252 seconds (Total)
+Chain 4: 
+Chain 2: Iteration: 1000 / 1000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 147.34 seconds (Warm-up)
+Chain 2:                93.36 seconds (Sampling)
+Chain 2:                240.7 seconds (Total)
+Chain 2: 
+Inference for the input samples (4 chains: each with iter = 500; warmup = 250):
+
+             Q5     Q50     Q95    Mean     SD   Rhat Bulk_ESS Tail_ESS
+w_mu[1] -3.2430 -2.5748 -1.8774 -2.5692 0.4181 0.9989     1902      948
+w_mu[2]  0.8721  1.7401  2.6053  1.7441 0.5274 1.0009     1372      710
+w_mu[3]  3.6212  4.5657  5.5211  4.5715 0.5852 1.0035     1127      822
+w_mu[4] -1.2844 -0.5152  0.3405 -0.5056 0.5019 1.0053     1205      917
+w_mu[5]  0.3828  0.5444  0.7044  0.5455 0.0998 1.0039     1923      894
+
+For each parameter, Bulk_ESS and Tail_ESS are crude measures of 
+effective sample size for bulk and tail quantities respectively (an ESS > 100 
+per chain is considered good), and Rhat is the potential scale reduction 
+factor on rank normalized split chains (at convergence, Rhat <= 1.05).
+Inference for the input samples (4 chains: each with iter = 500; warmup = 250):
+
+                Q5     Q50     Q95    Mean     SD   Rhat Bulk_ESS Tail_ESS
+w_sigma[1] -1.2847 -0.6815 -0.1369 -0.6857 0.3468 1.0022     1428      696
+w_sigma[2]  2.1336  2.9284  3.7120  2.9348 0.4752 1.0002     1002      728
+w_sigma[3]  2.8703  3.6769  4.6038  3.6969 0.5399 1.0078      956      760
+w_sigma[4]  0.6059  1.3326  2.1133  1.3418 0.4637 1.0029     1168      918
+w_sigma[5] -3.0924 -2.9851 -2.8654 -2.9841 0.0683 1.0015     2220      861
+
+For each parameter, Bulk_ESS and Tail_ESS are crude measures of 
+effective sample size for bulk and tail quantities respectively (an ESS > 100 
+per chain is considered good), and Rhat is the potential scale reduction 
+factor on rank normalized split chains (at convergence, Rhat <= 1.05).
+Inference for the input samples (4 chains: each with iter = 500; warmup = 250):
+
+           Q5    Q50    Q95   Mean     SD   Rhat Bulk_ESS Tail_ESS
+pi[1]  0.0000 0.0003 0.0031 0.0008 0.0014 1.0009     1343      695
+pi[2]  0.0000 0.0003 0.0029 0.0007 0.0012 0.9994     1599      845
+pi[3]  0.0000 0.0003 0.0025 0.0007 0.0014 0.9988      983      732
+pi[4]  0.0000 0.0002 0.0021 0.0006 0.0011 0.9996     1284      911
+pi[5]  0.0000 0.0003 0.0027 0.0007 0.0010 1.0020     1179      894
+pi[6]  0.0000 0.0003 0.0024 0.0006 0.0011 1.0059     1457      790
+pi[7]  0.0000 0.0003 0.0025 0.0007 0.0010 0.9998     1373      741
+pi[8]  0.0001 0.0012 0.0082 0.0024 0.0034 1.0013     1508      864
+pi[9]  0.0000 0.0007 0.0057 0.0014 0.0023 1.0006     1223      822
+pi[10] 0.0001 0.0012 0.0083 0.0023 0.0034 0.9995     1668      869
+pi[11] 0.0003 0.0025 0.0136 0.0042 0.0049 1.0034     1557      864
+pi[12] 0.0002 0.0015 0.0097 0.0028 0.0040 1.0039     1652      876
+pi[13] 0.0002 0.0020 0.0151 0.0042 0.0066 1.0025     1344      940
+pi[14] 0.0002 0.0022 0.0130 0.0038 0.0048 0.9992     1846      835
+pi[15] 0.0001 0.0011 0.0062 0.0019 0.0025 1.0041     1471      668
+pi[16] 0.1076 0.2242 0.3249 0.2195 0.0664 1.0049      679      426
+pi[17] 0.0001 0.0008 0.0052 0.0015 0.0018 1.0056     1337      860
+pi[18] 0.0006 0.0046 0.0218 0.0071 0.0077 1.0015     1485      896
+pi[19] 0.0004 0.0042 0.0241 0.0071 0.0090 0.9980     1922      890
+pi[20] 0.0004 0.0028 0.0166 0.0050 0.0064 0.9988     1421      829
+pi[21] 0.0002 0.0014 0.0082 0.0024 0.0030 1.0028     1603      880
+pi[22] 0.6143 0.7166 0.8422 0.7215 0.0702 1.0038      705      462
+pi[23] 0.0001 0.0009 0.0060 0.0017 0.0021 1.0020     1554      984
+pi[24] 0.0002 0.0019 0.0121 0.0035 0.0043 1.0000     1598      926
+pi[25] 0.0003 0.0016 0.0100 0.0030 0.0035 1.0028     1690      988
+
+For each parameter, Bulk_ESS and Tail_ESS are crude measures of 
+effective sample size for bulk and tail quantities respectively (an ESS > 100 
+per chain is considered good), and Rhat is the potential scale reduction 
+factor on rank normalized split chains (at convergence, Rhat <= 1.05).
